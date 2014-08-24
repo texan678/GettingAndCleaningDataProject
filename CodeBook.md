@@ -5,7 +5,7 @@ Subject ID	<p>
 	Integer	<p>		
 		1..30	<p>	
 			Uniquely Identifies each of the 30 participants in the study	<p>
-2	<p>			
+2				
 Activity ID	<p>			
 	Integer	<p>		
 		1	WALKING	
