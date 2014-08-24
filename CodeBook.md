@@ -1,6 +1,6 @@
 **Code Book**
 
-1 \r
+1 
 Subject ID
 	Integer
 		1..30
