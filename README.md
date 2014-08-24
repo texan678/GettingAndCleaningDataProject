@@ -25,6 +25,6 @@ Each of the "train" files for ID and measure columns contain the same number of 
 
 The script then repeats the same process for the "test" files, creating a separate combined data frame for test data. Rows from the train and test data frames are then combined into a consolidated dataset with all records from the study. 
 
-The measureNames data frame is then subset to create a vector with only those measures including a mean or standard deviation. The vector of names is used to subset the consolidated data frame. The plyr library is used to join the consolidated data frame with the activity descriptions. The columns are reordered, putting the IDs first and then the measures.
+The measureNames data frame is then subset to create a vector with only those measures including a mean or standard deviation. The vector of names is used to subset the consolidated data frame. The plyr library is used to join the consolidated data frame with the activity descriptions. The columns are reordered, putting the IDs first and then the measures.  This completes the first summary dataset.
 
-The second, summary dataset is produced by creating a data table from the data frame resulting from the above process. lapply is used to summarize each unique combination of ID's with the mean of the measure columns. Both data sets can then be writen to files as needed. 
+The second summary dataset is produced by creating a data table from the data frame resulting from the above process. lapply is used to summarize each unique combination of ID's with the mean of the measure columns. Both data sets can then be writen to files as needed. 

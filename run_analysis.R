@@ -48,6 +48,6 @@ allDataTable <- as.data.table(finalDataSet1)
 finalDataSet2 <-allDataTable[, lapply(.SD, mean), by = c("Subject ID", "Activity ID", "Activity Name"),
                              .SDcols = 4:69]
 
-#write.table(finalDataSet1, file="ds1.txt", row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
-write.table(finalDataSet2, file="ds2.txt", row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
+write.table(finalDataSet1, file="ds1.txt", row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
+#write.table(finalDataSet2, file="ds2.txt", row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
 
