@@ -15,7 +15,7 @@ Activity ID	<p>
 		5	STANDING	
 		6	LAYING	
 			Uniquely identifies each of the 6 motion activities in the study	<p>
-3	<p>			
+3<p>			
 Activity Name	<p>			
 	Character Vector	<p>		
 		WALKING	<p>	
@@ -25,6 +25,7 @@ Activity Name	<p>
 		STANDING	<p>	
 		LAYING	<p>	
 			Description of the motion activity that was recorded. 	<p>
+4<p>
 tBodyAcc-mean()-X	<p>			
  	Numeric 	<p>		
  		-1.000000..1.000000 	<p>	
