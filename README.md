@@ -7,18 +7,18 @@ Purpose: Performs extract, transform and load (ETL) tasks on data sourced from U
 Algorithm: Each row in the overall data provided by the study consists of columns from several different files. Below is a list by IDs (columns that uniquely identify row) and measures (columns resulting from calculations).
 
 IDs: 
-subject_train.txt 
-subject_test.txt 
-y_train.txt 
+subject_train.txt, 
+subject_test.txt, 
+y_train.txt, 
 y_test.txt
 
 Measures: 
-x_train.txt 
+x_train.txt, 
 x_test.txt
 
 In addition, two files provide descriptions of the measures and the type of motion activities performed.
 
-features.txt 
+features.txt, 
 activity_labels.txt
 
 Each of the "train" files for ID and measure columns contain the same number of rows. The script loads each "train" file into its own data frame in R and assigns a column name. For the measures, the names from features.txt are assign to the corresponding columns. The 3 data frames are then combined into a single data frame for train data. 
