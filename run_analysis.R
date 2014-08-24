@@ -1,6 +1,6 @@
 library(plyr)
 library(data.table)
-setwd("c:/Users/v-smmark/Documents/R/class/Coursera Data Scientist/Getting and Cleaning Data/project")
+#setwd("c:/Users/v-smmark/Documents/R/class/Coursera Data Scientist/Getting and Cleaning Data/project")
 
 if (!file.exists("./class/Coursera Data Scientist/Getting and Cleaning Data/project/etl")) {
   dir.create("etl")
