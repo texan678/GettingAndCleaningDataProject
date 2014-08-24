@@ -1,8 +1,8 @@
 **Code Book**				
 				
-1			
-Subject ID				
-	Integer			
+1	<p>		
+Subject ID	<p>			
+	Integer	<p>		
 		1..30	<p>	
 			Uniquely Identifies each of the 30 participants in the study	<p>
 2				
