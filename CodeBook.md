@@ -8,12 +8,12 @@ Subject ID<p>
 2<p>				
 Activity ID	<p>			
 	Integer	<p>		
-		1	WALKING	
-		2	WALKING_UPSTAIRS	
-		3	WALKING_DOWNSTAIRS	
-		4	SITTING	
-		5	STANDING	
-		6	LAYING	
+		1	WALKING		<p>
+		2	WALKING_UPSTAIRS	<p>	
+		3	WALKING_DOWNSTAIRS	<p>
+		4	SITTING		<p>
+		5	STANDING	<p>
+		6	LAYING		<p>
 			Uniquely identifies each of the 6 motion activities in the study	<p>
 3<p>			
 Activity Name	<p>			
