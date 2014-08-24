@@ -15,7 +15,7 @@ Activity ID	<p>
 		5	STANDING	<p>
 		6	LAYING		<p>
 			Uniquely identifies each of the 6 motion activities in the study	<p>
-3<p>			
+3<p>		
 Activity Name	<p>			
 	Character Vector	<p>		
 		WALKING	<p>	
